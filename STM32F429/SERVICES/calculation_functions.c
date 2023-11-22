@@ -16,6 +16,7 @@
 #include "MAGIC_NUMBERS.h"
 #include "BIT_UTILS.h"
 #include "HELPERS.h"
+#include "stdio.h"
 
 /********************************** Macros Declarations *******************************/
 
@@ -37,7 +38,7 @@ Std_StatusType Convert_IntToString (u32 Copy_u32Number, pu8 Address_str){
 
 	else{
 
-		sprintf(Address_str, "%lu", Copy_u32Number);
+		sprintf((s8*)Address_str, "%lu", Copy_u32Number);
 	}
 
 	return Loc_enuStatus;

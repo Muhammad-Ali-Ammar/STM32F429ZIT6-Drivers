@@ -28,6 +28,12 @@
 #include "../MCAL/GPIO/GPIO.h"
 #include "../MCAL/SYSTICK/SYSTICK.h"
 
+#include "../MCAL/CAN/CAN.h"
+
+////////// HAL ////////////////
+#include "../ECUL/LCD/LCD.h"
+
+
 /********************************** Macros Declarations *******************************/
 
 
@@ -36,7 +42,7 @@
 
 /********************************** Data Type Declarations ****************************/
 
-
+extern Lcd_4bitType Lcd;
 
 
 /********************************** Software Interfaces Declarations *******************/

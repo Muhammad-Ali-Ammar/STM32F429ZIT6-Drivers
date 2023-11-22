@@ -27,12 +27,16 @@
 #define SYSTICK_PERIODIC_FLAG 			ONE_VALUE
 
 static u8 Global_u8TimerTypeFlag = SYSTICK_INTERVAL_FLAG;
+static f64 Global_f64TimeOverflow = ZERO_VALUE;
 
 static void (*Systick_OverflowInterruptHandler)( void);
+static u64 GlobalStatic_u64SystickFreq = ZERO_VALUE;
 /********************************** Data Type Declarations ****************************/
 
 
+extern u64 Global_u64AHBFreq;
 /********************************** Macros Declarations *******************************/
+
 
 /********************************** Macros Function Declarations *********************/
 
@@ -66,6 +70,8 @@ Systick_ErrorStatusType Systick_enuInit(void){
 	/* Select Clock Source */
 	Systick_setClkSoruce(STK_CLK_SORUCE);
 
+	GlobalStatic_u64SystickFreq =Global_u64AHBFreq / (!STK_CLK_SORUCE*8 + STK_CLK_SORUCE);
+	Global_f64TimeOverflow = (f64)STK_LOAD_FULL_VALUE/(f64)GlobalStatic_u64SystickFreq;
 
 	return Loc_enuSystickErrorStatus;
 
@@ -93,7 +99,7 @@ Systick_ErrorStatusType Systick_enuDisableInterrupt(void){
 }
 
 
-Systick_ErrorStatusType Systick_enuSetBusyWait(u32 Copy_u32TicksNumber){
+Systick_ErrorStatusType Systick_enuSetBusyWaitTicks(u32 Copy_u32TicksNumber){
 	Systick_ErrorStatusType Loc_enuSystickErrorStatus = SYSTICK_STATUS_OK;
 
 	u8 Loc_u8InterruptStatusEnable ;
@@ -121,7 +127,34 @@ Systick_ErrorStatusType Systick_enuSetBusyWait(u32 Copy_u32TicksNumber){
 
 
 }
+Systick_ErrorStatusType Systick_enuSetBusyWait_ms(u64 Copy_u64MilliSeconds){
+	Systick_ErrorStatusType Loc_enuSystickErrorStatus = SYSTICK_STATUS_OK;
 
+	u8 Loc_u8InterruptStatusEnable ;
+	u32 Loc_u32TicksNumber = GlobalStatic_u64SystickFreq/1000*Copy_u64MilliSeconds;
+	/* Set Value */
+	Systick_SetValue(Loc_u32TicksNumber);
+
+	/* get interrupt status */
+	Loc_u8InterruptStatusEnable = Systick_getInterruptStatus();
+
+	/* Disable interrupt */
+	Systick_disableInterrupt();
+
+	/* Start Timer */
+	Systick_startCounting();
+	while(Systick_IsCountingDone() == ZERO_VALUE);
+
+	/* Disable/stop Timer */
+	Systick_stopTimer();
+
+	/* set interrupt as it was */
+	Systick_setInterruptStatus(Loc_u8InterruptStatusEnable);
+
+	return Loc_enuSystickErrorStatus;
+
+
+}
 Systick_ErrorStatusType Systick_enuSetIntervalOneTimeTicks (u32 Copy_u32TicksNumber,void (*callback)(void)){
 	Systick_ErrorStatusType Loc_enuSystickErrorStatus = SYSTICK_STATUS_OK;
 	if(callback == NULL){

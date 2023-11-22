@@ -12,8 +12,12 @@ RM := rm -rf
 -include Startup/subdir.mk
 -include SERVICES/subdir.mk
 -include MCAL/SYSTICK/subdir.mk
+-include MCAL/SCB/subdir.mk
 -include MCAL/RCC/subdir.mk
+-include MCAL/NVIC/subdir.mk
 -include MCAL/GPIO/subdir.mk
+-include MCAL/CAN/subdir.mk
+-include ECUL/LCD/subdir.mk
 -include APP/subdir.mk
 -include objects.mk
 

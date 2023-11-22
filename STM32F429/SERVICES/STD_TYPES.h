@@ -46,13 +46,24 @@ typedef unsigned char         boolean;
 typedef u8*			    	pu8;
 typedef u16*		 		pu16;
 typedef u32*		 		pu32;
-
+typedef u64*				pu64;
 /********************************** Macros Declarations *******************************/
 
 
 
 
 #define NULL				((void*)0)
+
+typedef enum{
+	STD_FALSE,
+	STD_TRUE
+}Std_True_or_FalseType;
+
+typedef enum{
+	STD_LOW,
+	STD_HIGH
+}Std_HIGH_or_LowType;
+
 
 /********************************** Software Interfaces Declarations *******************************/
 

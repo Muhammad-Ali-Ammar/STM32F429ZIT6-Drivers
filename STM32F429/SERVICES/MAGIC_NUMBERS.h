@@ -52,7 +52,6 @@
 
 
 
-
 #define KEYPAD_DELAY_HW			102
 #define KEYPAD_DELAY_PROTUS		389
 

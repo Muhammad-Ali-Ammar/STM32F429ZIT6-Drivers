@@ -28,6 +28,7 @@
 #define CLK_AHB_DIV_8				0
 #define CLK_AHB     				1
 
+#define STK_LOAD_FULL_VALUE			((u64)0xFFFFFF)
 
 /********************************** Macros Function Declarations *********************/
 

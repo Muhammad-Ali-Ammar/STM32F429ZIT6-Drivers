@@ -23,8 +23,12 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 APP \
+ECUL/LCD \
+MCAL/CAN \
 MCAL/GPIO \
+MCAL/NVIC \
 MCAL/RCC \
+MCAL/SCB \
 MCAL/SYSTICK \
 SERVICES \
 Startup \

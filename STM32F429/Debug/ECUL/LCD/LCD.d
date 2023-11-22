@@ -1,0 +1,18 @@
+ECUL/LCD/LCD.o: ../ECUL/LCD/LCD.c ../ECUL/LCD/../../SERVICES/BIT_UTILS.h \
+ ../ECUL/LCD/../../SERVICES/HELPERS.h \
+ ../ECUL/LCD/../../SERVICES/MAGIC_NUMBERS.h \
+ ../ECUL/LCD/../../SERVICES/STD_TYPES.h \
+ ../ECUL/LCD/../../SERVICES/calculation_functions.h \
+ /home/muhammad/Desktop/embedded/NTI\ TASK/STM32F429I/STM32F429/ECUL/../MCAL/GPIO/GPIO.h \
+ /home/muhammad/Desktop/embedded/NTI\ TASK/STM32F429I/STM32F429/ECUL/../MCAL/SYSTICK/SYSTICK.h \
+ ../ECUL/LCD/LCD.h ../ECUL/LCD/LCD_config.h ../ECUL/LCD/LCD_private.h
+../ECUL/LCD/../../SERVICES/BIT_UTILS.h:
+../ECUL/LCD/../../SERVICES/HELPERS.h:
+../ECUL/LCD/../../SERVICES/MAGIC_NUMBERS.h:
+../ECUL/LCD/../../SERVICES/STD_TYPES.h:
+../ECUL/LCD/../../SERVICES/calculation_functions.h:
+/home/muhammad/Desktop/embedded/NTI\ TASK/STM32F429I/STM32F429/ECUL/../MCAL/GPIO/GPIO.h:
+/home/muhammad/Desktop/embedded/NTI\ TASK/STM32F429I/STM32F429/ECUL/../MCAL/SYSTICK/SYSTICK.h:
+../ECUL/LCD/LCD.h:
+../ECUL/LCD/LCD_config.h:
+../ECUL/LCD/LCD_private.h:

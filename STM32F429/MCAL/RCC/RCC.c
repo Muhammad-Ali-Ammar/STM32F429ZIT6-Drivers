@@ -19,12 +19,20 @@
 
 #include "RCC_private.h"
 #include "RCC.h"
-
+#include "RCC_config.h"
 /********************************** Private declaration **********************************/
 
+static u16 Global_u16StaticPLL_M = ZERO_VALUE;
+static u16 Global_u16StaticPLL_N = ZERO_VALUE;
+static u16 Global_u16StaticPLL_P = ZERO_VALUE;
+static u16 Global_u16StaticPLL_Q = ZERO_VALUE;
+static u64 Global_u64StaticPLL_Freq = ZERO_VALUE;
 
-/********************************** Data Type Declarations ****************************/
+/********************************** Global declaration ****************************/
 
+/* shared variables for systick FCPU calcuations */
+u64 Global_u64SystemFreq = HSI_FREQ; // default value
+u64 Global_u64AHBFreq = HSI_FREQ; // default value
 
 /********************************** Macros Declarations *******************************/
 
@@ -156,10 +164,20 @@ Rcc_StatusErrorType Rcc_enuConfigPLL(const Rcc_PllConfigType* Address_Pll){
 	}
 	else{
 		RCC_setPLL_M_Factor(Address_Pll->rcc_PLL_M_From2To63);
+		Global_u16StaticPLL_M = Address_Pll->rcc_PLL_M_From2To63;
+
 		RCC_setPLL_N_Factor(Address_Pll->rcc_PLL_N_From50To432);
+		Global_u16StaticPLL_N = Address_Pll->rcc_PLL_N_From50To432;
+
 		RCC_setPLL_P_Factor(Address_Pll->rcc_select_pllp);
+		Global_u16StaticPLL_P = Address_Pll->rcc_select_pllp*TWO_VALUE+TWO_VALUE; // y = 2x+2
+
 		RCC_setPLL_Q_Factor(Address_Pll->rcc_select_pllq);
+		Global_u16StaticPLL_Q = Address_Pll->rcc_select_pllq;
+
 		RCC_setPLLClk(Address_Pll->rcc_select_pll_source);
+		Global_u64StaticPLL_Freq = !(Address_Pll->rcc_select_pll_source)*HSI_FREQ+ (Address_Pll->rcc_select_pll_source)*HSE_FREQ;
+		Global_u64StaticPLL_Freq = (Global_u64StaticPLL_Freq)/((u64)Global_u16StaticPLL_P*(u64)Global_u16StaticPLL_M)*Global_u16StaticPLL_N;
 	}
 
 	return Loc_enuRccStatusError;
@@ -198,6 +216,8 @@ Rcc_StatusErrorType Rcc_enuSelectAHBPrescaler(Rcc_AHBSelectPrescalerType Copy_en
 	Rcc_StatusErrorType Loc_enuRccStatusError = RCC_STATUS_OK;
 	RCC_selectAHBPrescaler(Copy_enuAHBPrescaler);
 
+	Global_u64AHBFreq /=Global_u16AHBPrescalerValuesArr[Copy_enuAHBPrescaler];
+
 	return Loc_enuRccStatusError;
 }
 
@@ -205,6 +225,16 @@ Rcc_StatusErrorType Rcc_enuSelectSystemClkSource(Rcc_SystemClkSoruceIndexType Co
 	Rcc_StatusErrorType Loc_enuRccStatusError = RCC_STATUS_OK;
 
 	RCC_selectSystemClk(Copy_enuSystemClkSource);
+
+	if(Copy_enuSystemClkSource == RCC_SYSTEM_CLK_PLL_INDEX){
+		Global_u64SystemFreq = Global_u64StaticPLL_Freq;
+	}
+
+	else{
+		Global_u64SystemFreq = !(Copy_enuSystemClkSource)*HSI_FREQ + Copy_enuSystemClkSource*HSE_FREQ;
+		Global_u64AHBFreq = Global_u64SystemFreq;
+	}
+
 	return Loc_enuRccStatusError;
 }
 
