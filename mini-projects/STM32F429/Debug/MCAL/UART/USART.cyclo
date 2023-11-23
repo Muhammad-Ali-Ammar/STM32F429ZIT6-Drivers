@@ -1,0 +1,16 @@
+../MCAL/UART/USART_private.h:123:30:Usart_enuSetBaudrate	7
+../MCAL/UART/USART_private.h:191:30:Usart_enuEnableRccClock	10
+../MCAL/UART/USART.c:41:23:Usart_enuInit	2
+../MCAL/UART/USART.c:94:23:Usart_enuDeInit	2
+../MCAL/UART/USART.c:116:23:Usart_enuTransmitCharBlocking	3
+../MCAL/UART/USART.c:129:23:Usart_enuTransmitStringBlocking	4
+../MCAL/UART/USART.c:146:23:Usart_enuReceiveCharBlocking	4
+../MCAL/UART/USART.c:161:23:Usart_enuReceiveStringBlocking	6
+../MCAL/UART/USART.c:191:23:Usart_enuSetBreakFrame	2
+../MCAL/UART/USART.c:209:23:Usart_enuEnableRxInterrupt	2
+../MCAL/UART/USART.c:223:23:Usart_enuDisableRxInterrupt	2
+../MCAL/UART/USART.c:236:23:Usart_enuSetCallbackRxFunction	3
+../MCAL/UART/USART.c:250:23:Usart_enuEnableTxCompleteInterrupt	2
+../MCAL/UART/USART.c:262:23:Usart_enuDisableTxCompleteInterrupt	2
+../MCAL/UART/USART.c:275:23:Usart_enuSetCallbackTxCompleteFunction	3
+../MCAL/UART/USART.c:295:6:USART1_IRQHandler	5

@@ -1,0 +1,16 @@
+../MCAL/UART/USART_private.h:123:30:Usart_enuSetBaudrate	72	static
+../MCAL/UART/USART_private.h:191:30:Usart_enuEnableRccClock	24	static
+../MCAL/UART/USART.c:41:23:Usart_enuInit	24	static
+../MCAL/UART/USART.c:94:23:Usart_enuDeInit	24	static
+../MCAL/UART/USART.c:116:23:Usart_enuTransmitCharBlocking	24	static
+../MCAL/UART/USART.c:129:23:Usart_enuTransmitStringBlocking	24	static
+../MCAL/UART/USART.c:146:23:Usart_enuReceiveCharBlocking	24	static
+../MCAL/UART/USART.c:161:23:Usart_enuReceiveStringBlocking	24	static
+../MCAL/UART/USART.c:191:23:Usart_enuSetBreakFrame	24	static
+../MCAL/UART/USART.c:209:23:Usart_enuEnableRxInterrupt	24	static
+../MCAL/UART/USART.c:223:23:Usart_enuDisableRxInterrupt	24	static
+../MCAL/UART/USART.c:236:23:Usart_enuSetCallbackRxFunction	24	static
+../MCAL/UART/USART.c:250:23:Usart_enuEnableTxCompleteInterrupt	24	static
+../MCAL/UART/USART.c:262:23:Usart_enuDisableTxCompleteInterrupt	24	static
+../MCAL/UART/USART.c:275:23:Usart_enuSetCallbackTxCompleteFunction	24	static
+../MCAL/UART/USART.c:295:6:USART1_IRQHandler	16	static

@@ -1,10 +1,10 @@
-20:34:47 **** Incremental Build of configuration Debug for project STM32F429 ****
+20:53:48 **** Incremental Build of configuration Debug for project STM32F429 ****
 make -j20 all 
 arm-none-eabi-size   STM32F429.elf 
    text	   data	    bss	    dec	    hex	filename
-   9016	    496	   1680	  11192	   2bb8	STM32F429.elf
+   8904	    432	   1680	  11016	   2b08	STM32F429.elf
 Finished building: default.size.stdout
  
 
-20:34:47 Build Finished. 0 errors, 0 warnings. (took 163ms)
+20:53:48 Build Finished. 0 errors, 0 warnings. (took 168ms)
 

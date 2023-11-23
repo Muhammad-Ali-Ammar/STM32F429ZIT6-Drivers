@@ -1,0 +1,6 @@
+../MCAL/NVIC/NVIC.c:46:22:Nvic_enuEnableInterrupt	24	static
+../MCAL/NVIC/NVIC.c:56:22:Nvic_enuDisableInterrupt	24	static
+../MCAL/NVIC/NVIC.c:68:22:Nvic_enuSetPendingFlag	24	static
+../MCAL/NVIC/NVIC.c:80:22:Nvic_enuClearPendingFlag	24	static
+../MCAL/NVIC/NVIC.c:93:22:Nvic_enuGetActiveFlag	24	static
+../MCAL/NVIC/NVIC.c:111:22:Nvic_SetInterruptPriority	24	static

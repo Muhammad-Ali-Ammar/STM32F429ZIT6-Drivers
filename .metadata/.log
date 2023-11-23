@@ -2522,3 +2522,33 @@ java.net.UnknownHostException: download.eclipse.org
 
 !ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:34:50.427
 !MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:46:27.521
+!MESSAGE ContextManager.reportStatus(): Context for Session 60 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:46:28.233
+!MESSAGE ContextManager.reportStatus(): Context for Session 60 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:46:28.265
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:53:51.032
+!MESSAGE ContextManager.reportStatus(): Context for Session 61 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:53:51.784
+!MESSAGE ContextManager.reportStatus(): Context for Session 61 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:53:51.802
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-11-23 20:53:51.843
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 61 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-11-23 20:53:51.843
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-11-23 20:53:51.844
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 61 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-11-23 20:53:51.844
+!MESSAGE Existing sessions are:
