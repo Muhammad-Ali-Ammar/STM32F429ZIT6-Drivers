@@ -1,0 +1,53 @@
+/**************************************************************************/
+/* Filename						: USART_private.h                                 */
+/* Author  	    				: Muhammad Ammar                          */
+/* Date 						: Nov 22, 2023  	           	 	         	 */ 
+/* Version 	 					: V01                                     */
+/* MicroController  			: STM32429 								   */
+/**************************************************************************/
+
+
+#ifndef UART_USART_PRIVATE_H_
+#define UART_USART_PRIVATE_H_
+
+
+
+/********************************** Includes *********************************************/
+
+
+
+/********************************** Macros Declarations *******************************/
+
+
+
+/********************************** Macros Function Declarations *********************/
+
+
+/********************************** Data Type Declarations ****************************/
+typedef volatile struct{
+  	u32 USART_SR;
+  	u32 USART_DR;
+  	u32 USART_BRR;
+  	u32 USART_CR1;
+  	u32 USART_CR2;
+  	u32 USART_CR3;
+  	u32 USART_GPTR;
+  }USARTx_Type;
+
+
+#define USART1 	((volatile USARTx_Type*)(0x40011000))
+#define USART2 	((volatile USARTx_Type*)(0x40023800))
+#define USART3 	((volatile USARTx_Type*)(0x40023800))
+#define USART4 	((volatile USARTx_Type*)(0x40023800))
+#define USART5 	((volatile USARTx_Type*)(0x40023800))
+#define USART6 	((volatile USARTx_Type*)(0x40011400))
+#define USART7 	((volatile USARTx_Type*)(0x40007800))
+#define USART8 	((volatile USARTx_Type*)(0x40007C00))
+
+
+
+/********************************** Software Interfaces Declarations *******************/
+
+
+
+#endif /* UART_USART_PRIVATE_H_ */

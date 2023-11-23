@@ -6,3 +6,4 @@
 ../SERVICES/calculation_functions.c:157:16:Convert_StringTou64	72	static
 ../SERVICES/calculation_functions.c:180:16:Convert_BCDToInt	24	static
 ../SERVICES/calculation_functions.c:201:16:Convert_VoltToTempLm35	24	static
+../SERVICES/calculation_functions.c:215:16:CompareTwoStrings	32	static

@@ -26,7 +26,6 @@
 
 /********************************** Private declaration **********************************/
 
-static Can_StatusErrorType enuFiltersInit(void);
 
 //static u8 GlobalStatic_u8NumberOfCan1Fitlers = ZERO_VALUE;
 

@@ -210,3 +210,34 @@ Std_StatusType Convert_VoltToTempLm35(f32 Copy_f32Volt, u16* Address_Result){
 
 	return Loc_enuStatus;
 }
+
+
+Std_StatusType CompareTwoStrings(u8* Address_Data1, u8* Address_Data2, Std_True_or_FalseType* Address_Result){
+	u8 Loc_u8FlagCheck = ONE_VALUE;
+	u8 Loc_u8Counter = ZERO_VALUE;
+	Std_StatusType Loc_enuStatus = STD_STATUS_OK;
+	if(Address_Data1 == NULL ||Address_Data2 == NULL ||Address_Result == NULL  ){
+		Loc_enuStatus = STD_STATUS_NULL_POINTER_ADDRESS;
+	}
+	else{
+
+		while(Address_Data1[Loc_u8Counter] && Address_Data1[Loc_u8Counter] && Loc_u8FlagCheck == ONE_VALUE) {
+
+			if(Address_Data1[Loc_u8Counter] != Address_Data1[Loc_u8Counter]){
+				Loc_u8FlagCheck = ZERO_VALUE;
+			}
+			Loc_u8Counter++;
+		}
+
+		if(Address_Data1[Loc_u8Counter] == '\0' && Address_Data2[Loc_u8Counter] == '\0' && Loc_u8FlagCheck == ONE_VALUE){
+			*Address_Result = STD_TRUE;
+		}
+		else{
+			*Address_Result= STD_FALSE;
+		}
+
+
+	}
+	return Loc_enuStatus;
+
+}

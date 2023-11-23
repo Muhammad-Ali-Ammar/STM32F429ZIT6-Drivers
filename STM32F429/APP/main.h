@@ -27,9 +27,8 @@
 #include "../MCAL/RCC/RCC.h"
 #include "../MCAL/GPIO/GPIO.h"
 #include "../MCAL/SYSTICK/SYSTICK.h"
-
 #include "../MCAL/CAN/CAN.h"
-
+#include "../MCAL/UART/USART.h"
 ////////// HAL ////////////////
 #include "../ECUL/LCD/LCD.h"
 

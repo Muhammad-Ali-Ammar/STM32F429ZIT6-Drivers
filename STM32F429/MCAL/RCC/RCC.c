@@ -33,6 +33,8 @@ static u64 Global_u64StaticPLL_Freq = ZERO_VALUE;
 /* shared variables for systick FCPU calcuations */
 u64 Global_u64SystemFreq = HSI_FREQ; // default value
 u64 Global_u64AHBFreq = HSI_FREQ; // default value
+u64 Global_u64ABP1Freq = HSI_FREQ; // default value
+u64 Global_u64ABP2Freq = HSI_FREQ; // default value
 
 /********************************** Macros Declarations *******************************/
 
@@ -203,12 +205,16 @@ Rcc_StatusErrorType Rcc_enuInitMCO1(Rcc_MCO1PinSelectClkSoruceType Copy_enuMCO1C
 Rcc_StatusErrorType Rcc_enuSelectAPB2Prescaler(Rcc_APB2SelectPrescalerType Copy_enuAPB2Prescaler){
 	Rcc_StatusErrorType Loc_enuRccStatusError = RCC_STATUS_OK;
 	RCC_selectAPB2Prescaler(Copy_enuAPB2Prescaler);
+	Global_u64ABP2Freq /=Global_u16APBPrescalerValuesArr[Copy_enuAPB2Prescaler];
 
 	return Loc_enuRccStatusError;
 }
 Rcc_StatusErrorType Rcc_enuSelectAPB1Prescaler(Rcc_APB1SelectPrescalerType Copy_enuAPB1Prescaler){
 	Rcc_StatusErrorType Loc_enuRccStatusError = RCC_STATUS_OK;
 	RCC_selectAPB1Prescaler(Copy_enuAPB1Prescaler);
+	Global_u64ABP1Freq /=Global_u16APBPrescalerValuesArr[Copy_enuAPB1Prescaler];
+
+
 
 	return Loc_enuRccStatusError;
 }
@@ -233,6 +239,8 @@ Rcc_StatusErrorType Rcc_enuSelectSystemClkSource(Rcc_SystemClkSoruceIndexType Co
 	else{
 		Global_u64SystemFreq = !(Copy_enuSystemClkSource)*HSI_FREQ + Copy_enuSystemClkSource*HSE_FREQ;
 		Global_u64AHBFreq = Global_u64SystemFreq;
+		Global_u64ABP1Freq = Global_u64SystemFreq;
+		Global_u64ABP2Freq = Global_u64SystemFreq;
 	}
 
 	return Loc_enuRccStatusError;

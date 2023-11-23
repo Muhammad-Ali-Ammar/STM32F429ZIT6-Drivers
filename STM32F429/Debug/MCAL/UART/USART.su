@@ -1,0 +1,9 @@
+../MCAL/UART/USART_private.h:103:30:Usart_enuSetBaudrate	72	static
+../MCAL/UART/USART_private.h:171:30:Usart_enuEnableRccClock	24	static
+../MCAL/UART/USART.c:40:23:Usart_enuInit	24	static
+../MCAL/UART/USART.c:93:23:Usart_enuDeInit	24	static
+../MCAL/UART/USART.c:115:23:Usart_enuTransmitCharBlocking	24	static
+../MCAL/UART/USART.c:128:23:Usart_enuTransmitStringBlocking	24	static
+../MCAL/UART/USART.c:145:23:Usart_enuReceiveCharBlocking	24	static
+../MCAL/UART/USART.c:160:23:Usart_enuReceiveStringBlocking	24	static
+../MCAL/UART/USART.c:190:23:Usart_enuSetBreakFrame	24	static

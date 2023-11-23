@@ -10,5 +10,7 @@
 "./MCAL/RCC/RCC.o"
 "./MCAL/SCB/SCB.o"
 "./MCAL/SYSTICK/SYSTICK.o"
+"./MCAL/UART/USART.o"
+"./MCAL/UART/USART_config.o"
 "./SERVICES/calculation_functions.o"
 "./Startup/startup_stm32f429zitx.o"

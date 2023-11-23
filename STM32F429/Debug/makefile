@@ -11,6 +11,7 @@ RM := rm -rf
 -include sources.mk
 -include Startup/subdir.mk
 -include SERVICES/subdir.mk
+-include MCAL/UART/subdir.mk
 -include MCAL/SYSTICK/subdir.mk
 -include MCAL/SCB/subdir.mk
 -include MCAL/RCC/subdir.mk
@@ -67,8 +68,8 @@ all: main-build
 main-build: STM32F429.elf secondary-outputs
 
 # Tool invocations
-STM32F429.elf STM32F429.map: $(OBJS) $(USER_OBJS) /home/muhammad/Desktop/embedded/NTI\ TASK/STM32F429I/STM32F429/STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32F429.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/muhammad/Desktop/embedded/NTI TASK/STM32F429I/STM32F429/STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F429.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32F429.elf STM32F429.map: $(OBJS) $(USER_OBJS) /home/muhammad/Desktop/embedded/NTI\ TASK/Repo/STM32F429ZIT6-Drivers/STM32F429/STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32F429.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/muhammad/Desktop/embedded/NTI TASK/Repo/STM32F429ZIT6-Drivers/STM32F429/STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F429.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -358,6 +358,7 @@ typedef volatile struct{
 
 
 /********************************** Software Interfaces Declarations *******************/
+static Can_StatusErrorType enuFiltersInit(void);
 
 
 

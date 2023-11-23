@@ -45,5 +45,6 @@ Std_StatusType Convert_StringTou64 (u64* Address_Number, pu8 Address_str);
 Std_StatusType Convert_BCDToInt(u8 Copy_u8BCDdata, u8* Address_Asnwer);
 Std_StatusType Convert_VoltToTempLm35(f32 Copy_, u16* Address_Result);
 
+Std_StatusType CompareTwoStrings(u8* Address_Data1, u8* Address_Data2, Std_True_or_FalseType* Address_Result);
 
 #endif /* SERIVICES_INCLUDE_CALCULATION_FUNCTIONS_H_ */

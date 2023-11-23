@@ -66,6 +66,9 @@ static volatile u32* Global_PeripheralResetRegArr[]={&(RCC->RCC_AHB1RSTR),&(RCC-
 static volatile u32* Global_PeripheralLowPowerClkRegEnArr[]={&(RCC->RCC_AHB1LPENR),&(RCC->RCC_AHB2LPENR),&(RCC->RCC_AHB3LPENR),&(RCC->RCC_APB1LPENR),&(RCC->RCC_APB2LPENR)};
 
 static u16 Global_u16AHBPrescalerValuesArr[16]={ [0]=1,[8]=2,[9]=4,[10]=8,[11]=16,[12]=64,[13]=128,[14]=256,[15]=512};
+static u16 Global_u16APBPrescalerValuesArr[16]={ [0]=1,[4]=2,[5]=4,[6]=8,[7]=16};
+
+
 
 /********************************** Macros Function Declarations *********************/
 
