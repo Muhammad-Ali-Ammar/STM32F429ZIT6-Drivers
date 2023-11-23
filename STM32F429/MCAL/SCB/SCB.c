@@ -20,10 +20,10 @@
 #include "SCB.h"
 #include "SCB_private.h"
 
-#include "../NVIC/NVIC.h"
-/********************************** Private declaration **********************************/
+/**********************************  declaration **********************************/
 
-
+/* it's used for NVIC Driver */
+Scb_SelectGroupPriorityAndSubPriorityType Global_GroupPrioritySelection;
 
 /********************************** Data Type Declarations ****************************/
 
@@ -36,13 +36,16 @@
 
 
 /******************************* Software Interfaces Implementation *******************/
-//SCB_ErrorStatusType Scb_enuSetGroupPrioirty(Nvic_SelectGroupPrioiriesAndSubPrioiriesType Copy_enuGroupPrioirty){
-//	SCB_ErrorStatusType Loc_enuScbErrorStatus = SCB_STATUS_OK;
-//
-//
-//
-//	return Loc_enuScbErrorStatus;
-//}
+SCB_ErrorStatusType Scb_enuSetGroupPrioirty(Scb_SelectGroupPriorityAndSubPriorityType Copy_enuSelectGroupPriority){
+
+	SCB_ErrorStatusType Loc_enuScbErrorStatus = SCB_STATUS_OK;
+
+	Scb_SetGroupPrioirty(Copy_enuSelectGroupPriority);
+
+	/* it's used for NVIC Driver */
+	Global_GroupPrioritySelection =Copy_enuSelectGroupPriority;
+	return Loc_enuScbErrorStatus;
+}
 
 
 /**************************** Private Software Interface Implementation **************/

@@ -23,7 +23,8 @@
 
 /********************************** Private declaration **********************************/
 
-
+static void (*Usart_RxInterruptHandler[NUMBER_OF_USART])( u16 Copy_u8Result);
+static void (*Usart_TxCompleteInterruptHandler[NUMBER_OF_USART])( void);
 
 /********************************** Data Type Declarations ****************************/
 
@@ -200,7 +201,121 @@ Usart_StatusErrorType Usart_enuSetBreakFrame(const Usart_ConfigType* Address_Usa
 }
 
 
+/////////////////////////////// Interrupt Part ////////////////////////////////////////////
+
+/*
+ * Look At Page 1006
+ */
+Usart_StatusErrorType Usart_enuEnableRxInterrupt(const Usart_ConfigType* Address_Usart){
+	Usart_StatusErrorType Loc_UsartStatusError = USART_STATUS_OK;
+
+	if(Address_Usart == NULL ){
+		Loc_UsartStatusError = USART_STATUS_NULL_POINTER_ADDRESS;
+	}
+	else{
+
+
+		Usart_EnableRxCompleteInterrupt(( Address_Usart->select_channel_number));
+	}
+	return Loc_UsartStatusError;
+}
+
+Usart_StatusErrorType Usart_enuDisableRxInterrupt(const Usart_ConfigType* Address_Usart){
+	Usart_StatusErrorType Loc_UsartStatusError = USART_STATUS_OK;
+
+	if(Address_Usart == NULL ){
+		Loc_UsartStatusError = USART_STATUS_NULL_POINTER_ADDRESS;
+	}
+	else{
+		Usart_DisableRxCompleteInterrupt(( Address_Usart->select_channel_number));
+
+	}
+	return Loc_UsartStatusError;
+}
+
+Usart_StatusErrorType Usart_enuSetCallbackRxFunction(const Usart_ConfigType* Address_Usart,void (*callback)(u16 Copy_u16Result)){
+	Usart_StatusErrorType Loc_UsartStatusError = USART_STATUS_OK;
+
+	if(Address_Usart == NULL || NULL == callback ){
+		Loc_UsartStatusError = USART_STATUS_NULL_POINTER_ADDRESS;
+	}
+	else{
+		Usart_RxInterruptHandler[( Address_Usart->select_channel_number)] =callback;
+	}
+	return Loc_UsartStatusError;
+}
+
+
+
+Usart_StatusErrorType Usart_enuEnableTxCompleteInterrupt(const Usart_ConfigType* Address_Usart){
+	Usart_StatusErrorType Loc_UsartStatusError = USART_STATUS_OK;
+
+	if(Address_Usart == NULL ){
+		Loc_UsartStatusError = USART_STATUS_NULL_POINTER_ADDRESS;
+	}
+	else{
+		Usart_EnableTxCompleteInterrupt(( Address_Usart->select_channel_number));
+	}
+	return Loc_UsartStatusError;
+}
+
+Usart_StatusErrorType Usart_enuDisableTxCompleteInterrupt(const Usart_ConfigType* Address_Usart){
+	Usart_StatusErrorType Loc_UsartStatusError = USART_STATUS_OK;
+
+	if(Address_Usart == NULL ){
+		Loc_UsartStatusError = USART_STATUS_NULL_POINTER_ADDRESS;
+	}
+	else{
+
+		Usart_DisableTxCompleteInterrupt(( Address_Usart->select_channel_number));
+	}
+	return Loc_UsartStatusError;
+}
+
+Usart_StatusErrorType Usart_enuSetCallbackTxCompleteFunction(const Usart_ConfigType* Address_Usart,void (*callback)(void)){
+	Usart_StatusErrorType Loc_UsartStatusError = USART_STATUS_OK;
+
+	if(Address_Usart == NULL || NULL == callback ){
+		Loc_UsartStatusError = USART_STATUS_NULL_POINTER_ADDRESS;
+	}
+	else{
+		Usart_TxCompleteInterruptHandler[( Address_Usart->select_channel_number)] =callback;
+
+	}
+	return Loc_UsartStatusError;
+}
+
+
+
+
 
 
 /**************************** Private Software Interface Implementation **************/
+
+void USART1_IRQHandler(void){
+
+	u16 Loc_u16Result;
+
+	if(Usart_GetRxCompleteFlag(USART_SELECT_CHANNEL_1) == ONE_VALUE && Usart_IsRxCompleteInterruptEnabled(USART_SELECT_CHANNEL_1) == ONE_VALUE ){
+
+		Loc_u16Result = Usart_GetDataReg(USART_SELECT_CHANNEL_1);
+		Usart_RxInterruptHandler[USART_SELECT_CHANNEL_1](Loc_u16Result);
+
+		Usart_ClearRxCompleteFlag(USART_SELECT_CHANNEL_1);
+	}
+
+	if(Usart_GetTxCompleteFlag(USART_SELECT_CHANNEL_1) == ONE_VALUE && Usart_IsTxCompleteInterruptEnabled(USART_SELECT_CHANNEL_1) == ONE_VALUE ){
+
+		Usart_TxCompleteInterruptHandler[USART_SELECT_CHANNEL_1]();
+		Usart_ClearTxCompleteFlag(USART_SELECT_CHANNEL_1);
+	}
+
+}
+
+
+
+
+
+
+
 

@@ -1382,3 +1382,1143 @@ java.net.UnknownHostException: download.eclipse.org
 
 !ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 13:50:49.819
 !MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:30:14.721
+!MESSAGE ContextManager.reportStatus(): Context for Session 29 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:30:15.555
+!MESSAGE ContextManager.reportStatus(): Context for Session 29 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:30:15.572
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:39:12.196
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:39:13.034
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:39:13.085
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:39:15.801
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:39:15.895
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:39:18.825
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:40:03.183
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:40:33.049
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:40:33.112
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:40:36.834
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:40:36.929
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:40:41.462
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:40:41.642
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:40:42.259
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:40:42.540
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:41:08.386
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:41:09.637
+!MESSAGE ContextManager.reportStatus(): Context for Session 30 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:42:21.335
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:42:25.552
+!MESSAGE ContextManager.reportStatus(): Context for Session 31 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:42:26.388
+!MESSAGE ContextManager.reportStatus(): Context for Session 31 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:42:26.447
+!MESSAGE ContextManager.reportStatus(): Context for Session 31 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:42:29.097
+!MESSAGE ContextManager.reportStatus(): Context for Session 31 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:42:29.159
+!MESSAGE ContextManager.reportStatus(): Context for Session 31 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:42:35.584
+!MESSAGE ContextManager.reportStatus(): Context for Session 31 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:42:35.784
+!MESSAGE ContextManager.reportStatus(): Context for Session 31 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:42:42.151
+!MESSAGE ContextManager.reportStatus(): Context for Session 31 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:42:43.413
+!MESSAGE ContextManager.reportStatus(): Context for Session 31 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:45:10.309
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:13.856
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:14.697
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:14.750
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:19.422
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:19.665
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:20.386
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:20.569
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:21.034
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:21.376
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:22.024
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:22.179
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:25.382
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:25.686
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:26.140
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:26.292
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:27.992
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:28.393
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:30.576
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:30.909
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:32.719
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:33.014
+!MESSAGE ContextManager.reportStatus(): Context for Session 32 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:45:50.319
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:55.068
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:55.874
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:55.947
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:58.466
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:45:58.552
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:46:03.659
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:46:03.874
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:46:04.642
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:46:04.870
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:46:05.760
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:46:07.082
+!MESSAGE ContextManager.reportStatus(): Context for Session 33 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:46:48.667
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:46:54.328
+!MESSAGE ContextManager.reportStatus(): Context for Session 34 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:46:55.073
+!MESSAGE ContextManager.reportStatus(): Context for Session 34 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:46:55.117
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:47:56.095
+!MESSAGE ContextManager.reportStatus(): Context for Session 35 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:47:56.864
+!MESSAGE ContextManager.reportStatus(): Context for Session 35 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:47:56.879
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:48:44.863
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:48:45.655
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:48:45.728
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:48:53.336
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:48:53.462
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:48:57.877
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:48:58.071
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:48:59.878
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:49:00.082
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:49:04.765
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:49:04.893
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:49:06.054
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:49:35.221
+!MESSAGE ContextManager.reportStatus(): Context for Session 36 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:49:35.736
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:49:45.586
+!MESSAGE ContextManager.reportStatus(): Context for Session 37 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:49:46.374
+!MESSAGE ContextManager.reportStatus(): Context for Session 37 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:49:46.388
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:11.543
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:12.336
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:12.388
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:16.060
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:16.104
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:46.246
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:46.418
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:47.381
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:47.622
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:49.043
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:50.327
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:52.674
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:52.737
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:53.406
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:50:53.845
+!MESSAGE ContextManager.reportStatus(): Context for Session 38 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:51:04.273
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:08.601
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:09.428
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:09.489
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:12.296
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:12.412
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:15.712
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:15.915
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:16.656
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:16.916
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:17.554
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:51:18.826
+!MESSAGE ContextManager.reportStatus(): Context for Session 39 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:51:59.570
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:03.919
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:04.775
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:04.826
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:06.758
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:06.832
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:09.845
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:10.039
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:12.460
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:13.753
+!MESSAGE ContextManager.reportStatus(): Context for Session 40 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:52:26.629
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:31.087
+!MESSAGE ContextManager.reportStatus(): Context for Session 41 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:31.979
+!MESSAGE ContextManager.reportStatus(): Context for Session 41 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:32.029
+!MESSAGE ContextManager.reportStatus(): Context for Session 41 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:36.280
+!MESSAGE ContextManager.reportStatus(): Context for Session 41 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:52:36.356
+!MESSAGE ContextManager.reportStatus(): Context for Session 41 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:53:00.485
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:53:08.537
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:53:09.405
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:53:09.466
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:06.195
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:06.279
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:10.553
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:10.696
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:11.735
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:11.997
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:13.010
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:14.307
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:22.144
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:54:22.237
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:55:16.612
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:55:18.019
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:55:18.064
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:55:18.133
+!MESSAGE ContextManager.reportStatus(): Context for Session 42 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:55:20.037
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:55:24.558
+!MESSAGE ContextManager.reportStatus(): Context for Session 43 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:55:25.423
+!MESSAGE ContextManager.reportStatus(): Context for Session 43 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:55:25.482
+!MESSAGE ContextManager.reportStatus(): Context for Session 43 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:55:28.166
+!MESSAGE ContextManager.reportStatus(): Context for Session 43 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:55:28.627
+!MESSAGE ContextManager.reportStatus(): Context for Session 43 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:55:55.933
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:02.819
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:03.671
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:03.713
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:07.844
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:07.938
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:26.520
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:26.702
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:27.377
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:28.003
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:29.268
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:29.813
+!MESSAGE ContextManager.reportStatus(): Context for Session 44 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 19:56:51.439
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:54.680
+!MESSAGE ContextManager.reportStatus(): Context for Session 45 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:55.547
+!MESSAGE ContextManager.reportStatus(): Context for Session 45 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:55.608
+!MESSAGE ContextManager.reportStatus(): Context for Session 45 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:59.505
+!MESSAGE ContextManager.reportStatus(): Context for Session 45 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:56:59.634
+!MESSAGE ContextManager.reportStatus(): Context for Session 45 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 19:57:54.519
+!MESSAGE ContextManager.reportStatus(): Context for Session 45 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:02:59.138
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:03.600
+!MESSAGE ContextManager.reportStatus(): Context for Session 46 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:04.405
+!MESSAGE ContextManager.reportStatus(): Context for Session 46 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:04.465
+!MESSAGE ContextManager.reportStatus(): Context for Session 46 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:07.889
+!MESSAGE ContextManager.reportStatus(): Context for Session 46 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:08.078
+!MESSAGE ContextManager.reportStatus(): Context for Session 46 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:03:43.185
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:47.679
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:48.524
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:48.600
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:54.098
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:03:54.213
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:11.392
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:11.572
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:12.025
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:12.275
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:13.957
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:15.287
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:16.868
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:16.991
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:19.663
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:20.100
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:21.084
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:26.608
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:29.685
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:29.735
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:30.885
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:30.940
+!MESSAGE ContextManager.reportStatus(): Context for Session 47 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:04:33.977
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:40.096
+!MESSAGE ContextManager.reportStatus(): Context for Session 48 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:04:40.892
+!MESSAGE ContextManager.reportStatus(): Context for Session 48 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:04:40.909
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-11-23 20:04:40.933
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 48 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-11-23 20:04:40.933
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-11-23 20:04:40.933
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 48 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2023-11-23 20:04:40.933
+!MESSAGE Existing sessions are:
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:05:35.873
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:05:36.711
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:05:36.774
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:05:41.205
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:05:41.297
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:06:00.735
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:06:00.971
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:06:06.306
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:06:06.487
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:06:57.252
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:06:57.574
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:07:06.457
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:07:06.708
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:07:27.077
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:07:28.391
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:25.959
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:26.016
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:27.301
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:27.824
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:28.760
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:29.237
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:31.049
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:31.241
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:31.823
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:32.035
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:32.884
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:33.444
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:43.542
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:43.686
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:46.103
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:09:46.198
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:29.722
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:29.754
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:31.547
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:31.671
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:33.530
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:33.776
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:35.756
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:35.990
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:43.970
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:10:45.120
+!MESSAGE ContextManager.reportStatus(): Context for Session 49 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:13:33.072
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:13:51.714
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:13:52.568
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:13:52.610
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:13:57.056
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:13:57.131
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:01.200
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:01.447
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:06.815
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:06.870
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:08.816
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:08.981
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:18.261
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:18.413
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:19.918
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:20.126
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:23.955
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:14:24.139
+!MESSAGE ContextManager.reportStatus(): Context for Session 51 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:15:43.155
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:15:46.349
+!MESSAGE ContextManager.reportStatus(): Context for Session 52 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:15:47.108
+!MESSAGE ContextManager.reportStatus(): Context for Session 52 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:15:47.133
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:01.426
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:02.260
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:02.322
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:14.562
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:14.665
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:16.223
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:16.373
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:20.825
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:20.986
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:34.557
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:34.741
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:35.427
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:35.740
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:37.312
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:38.557
+!MESSAGE ContextManager.reportStatus(): Context for Session 53 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:17:51.982
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:55.310
+!MESSAGE ContextManager.reportStatus(): Context for Session 54 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:56.219
+!MESSAGE ContextManager.reportStatus(): Context for Session 54 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:17:56.342
+!MESSAGE ContextManager.reportStatus(): Context for Session 54 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:18:04.623
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:18:07.985
+!MESSAGE ContextManager.reportStatus(): Context for Session 55 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:18:08.785
+!MESSAGE ContextManager.reportStatus(): Context for Session 55 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:18:08.817
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:18.312
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:19.084
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:19.149
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:27.461
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:27.588
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:28.422
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:28.598
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:29.312
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:29.500
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:30.077
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:30.306
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:30.936
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:37.555
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:42.828
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:43.071
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:43.657
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:43.983
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:44.609
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:45.080
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:46.231
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:46.887
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:47.742
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:48.399
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:49.841
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:50.202
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:53.250
+!MESSAGE ContextManager.reportStatus(): Context for Session 56 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:20:56.122
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:59.082
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:59.878
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:20:59.940
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:03.351
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:03.454
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:04.613
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:04.765
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:09.001
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:09.086
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:10.417
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:10.589
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:13.799
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:21:18.524
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:19.505
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:19.805
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:25.121
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:25.438
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:28.128
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:28.352
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:29.114
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:29.358
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:29.673
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:29.953
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:30.212
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:30.453
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:30.458
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:31.761
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:32.599
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:32.664
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:33.371
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:33.871
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:34.848
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:35.275
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:47.339
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:48.045
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:48.932
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:22:49.648
+!MESSAGE ContextManager.reportStatus(): Context for Session 57 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:27:41.201
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:27:45.386
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:27:46.144
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:27:46.215
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:27:48.381
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:27:48.423
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:27:49.181
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:27:49.335
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:27:49.961
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:27:58.063
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:28:01.616
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:28:18.495
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:28:25.536
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:28:25.615
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:28:29.903
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:31:09.063
+!MESSAGE ContextManager.reportStatus(): Context for Session 58 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:31:09.578
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:34:49.693
+!MESSAGE ContextManager.reportStatus(): Context for Session 59 (org.eclipse.cdt.dsf.gdb)
+
+!ENTRY com.percepio.tracealyzer.ui 1 0 2023-11-23 20:34:50.411
+!MESSAGE ContextManager.reportStatus(): Context for Session 59 (org.eclipse.cdt.dsf.gdb) (repeated)
+
+!ENTRY com.percepio.tracealyzer.ui 2 0 2023-11-23 20:34:50.427
+!MESSAGE ContextManager.reportWarning(): Session for current Context ended

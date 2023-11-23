@@ -49,7 +49,7 @@
 #define TWENTYNINE_VALUE	29
 #define THIRTY_VALUE		30
 #define THIRTYONE_VALUE		31
-
+#define THIRTYTWO_VALUE		32
 
 
 #define KEYPAD_DELAY_HW			102

@@ -39,10 +39,14 @@
 #define SCB_AFSR		(*(volatile u32*)(0xE000ED3C ))
 
 
+#define SCB_AIRCR_VECTKEY			0x5FA
+
 
 
 /********************************** Macros Function Declarations *********************/
 
+
+#define Scb_SetGroupPrioirty(_VALUE_)				(SCB_AIRCR) = ( (SCB_AIRCR_VECTKEY<<SIXTEEN_VALUE) | ( (_VALUE_<<EIGHT_VALUE) & 0x700))
 
 /********************************** Data Type Declarations ****************************/
 

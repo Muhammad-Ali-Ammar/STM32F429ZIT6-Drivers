@@ -71,16 +71,16 @@ NVIC_RTC_Alarm,
 NVIC_OTG_FS_WKUP,
 NVIC_TIM8_BRK_TIM12,
 NVIC_TIM8_TRG_TIM13,
-NVIC_TIM8_TRG_COM_TIM1,
+NVIC_TIM8_TRG_COM_TIM14,
 NVIC_TIM8_CC,
 NVIC_DMA1_Stream7,
 
-NVIC_FSMO,
+NVIC_FSMC,
 NVIC_SDIO,
 NVIC_TIM5,
-NVIC_UART4,
 NVIC_SPI3,
-NVIC_JART5,
+NVIC_USART4,
+NVIC_USART5,
 NVIC_TIM6_DAC,
 NVIC_TIM7,
 NVIC_DMA2_Stream0,
@@ -89,17 +89,17 @@ NVIC_DMA2_Stream2,
 NVIC_DMA2_Stream3,
 NVIC_DMA2_Stream4,
 NVIC_ETH,
-NVIC_WUKUP,
+NVIC_ETH_WUKUP,
 NVIC_CAN2_TX,
-NVIC_CAN2_RX1,
 NVIC_CAN2_RX0,
+NVIC_CAN2_RX1,
 NVIC_CAN2_SCE,
 
 NVIC_OTG_FS,
 NVIC_DMA2_Stream5,
 NVIC_DMA2_Stream6,
 NVIC_DMA2_Stream7,
-NVIC_UART6,
+NVIC_USART6,
 NVIC_I2C3_EV,
 NVIC_I2C3_ER,
 NVIC_OTG_HS_EP1_OUT,
@@ -110,8 +110,8 @@ NVIC_DCMI,
 NVIC_CRYP,
 NVIC_HASH_RNG,
 NVIC_FPU,
-NVIC_UART7,
-NVIC_UART8,
+NVIC_USART7,
+NVIC_USART8,
 NVIC_SPI4,
 NVIC_SPI5,
 NVIC_SPI6,
@@ -127,13 +127,46 @@ typedef enum{
 	NVIC_ACTIVE_FLAG_IS_ACTIVE
 }Nvic_ActiveFlagType;
 
+typedef enum {
+    NVIC_Select_Group_0,
+    NVIC_Select_Group_1,
+    NVIC_Select_Group_2,
+    NVIC_Select_Group_3,
+    NVIC_Select_Group_4,
+    NVIC_Select_Group_5,
+    NVIC_Select_Group_6,
+    NVIC_Select_Group_7,
+    NVIC_Select_Group_8,
+    NVIC_Select_Group_9,
+    NVIC_Select_Group_10,
+    NVIC_Select_Group_11,
+    NVIC_Select_Group_12,
+    NVIC_Select_Group_13,
+    NVIC_Select_Group_14,
+    NVIC_Select_Group_15
+} Nvic_SelectGroupxType;
 
-typedef enum{
-	NVIC_SELECT_GROUP_PRIORITY_16_AND_SUB_PRIORITY_ZERO,
-	NVIC_SELECT_GROUP_PRIORITY_4_AND_SUB_PRIORITY_4= 0b100,
-	NVIC_SELECT_GROUP_PRIORITY_2_AND_SUB_PRIORITY_8=0b110,
-	NVIC_SELECT_GROUP_PRIORITY_ZERO_AND_SUB_PRIORITY_16=0b111
-}Nvic_SelectGroupPrioiriesAndSubPrioiriesType;
+typedef enum {
+    NVIC_Select_Sub_0,
+    NVIC_Select_Sub_1,
+    NVIC_Select_Sub_2,
+    NVIC_Select_Sub_3,
+    NVIC_Select_Sub_4,
+    NVIC_Select_Sub_5,
+    NVIC_Select_Sub_6,
+    NVIC_Select_Sub_7,
+    NVIC_Select_Sub_8,
+    NVIC_Select_Sub_9,
+    NVIC_Select_Sub_10,
+    NVIC_Select_Sub_11,
+    NVIC_Select_Sub_12,
+    NVIC_Select_Sub_13,
+    NVIC_Select_Sub_14,
+    NVIC_Select_Sub_15
+} Nvic_SelectSubxType;
+
+
+
 
 
 typedef enum{
@@ -143,6 +176,18 @@ typedef enum{
 }Nvic_ErrorStatusType;
 
 /********************************** Software Interfaces Declarations *******************/
+
+Nvic_ErrorStatusType Nvic_enuEnableInterrupt(Nvic_IndexPeripheralType Copy_NvicIndex);
+Nvic_ErrorStatusType Nvic_enuDisableInterrupt(Nvic_IndexPeripheralType Copy_NvicIndex);
+
+Nvic_ErrorStatusType Nvic_enuSetPendingFlag(Nvic_IndexPeripheralType Copy_NvicIndex);
+Nvic_ErrorStatusType Nvic_enuClearPendingFlag(Nvic_IndexPeripheralType Copy_NvicIndex);
+
+Nvic_ErrorStatusType Nvic_enuGetActiveFlag(Nvic_IndexPeripheralType Copy_NvicIndex, Nvic_ActiveFlagType* Address_Result);
+
+Nvic_ErrorStatusType Nvic_SetInterruptPriority(Nvic_IndexPeripheralType Copy_NvicIndex,Nvic_SelectGroupxType Copy_enuGroupNumber, Nvic_SelectSubxType Copy_enuSubNumber);
+
+
 
 
 

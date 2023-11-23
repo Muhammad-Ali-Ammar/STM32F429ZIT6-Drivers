@@ -1,0 +1,49 @@
+/**************************************************************************/
+/* Filename						: SCB_private.h                            */
+/* Author  	    				: Muhammad Ammar                          */
+/* Date 						: Nov 12, 2023  	           	 	         	 */ 
+/* Version 	 					: V01                                     */
+/* MicroController  			: STM32429 								   */
+/**************************************************************************/
+
+
+#ifndef SCB_SCB_PRIVATE_H_
+#define SCB_SCB_PRIVATE_H_
+
+
+
+/********************************** Includes *********************************************/
+
+
+
+/********************************** Macros Declarations *******************************/
+
+
+  typedef volatile struct{
+  	u32 SCB_CPUID;
+  	u32 GPIO_OTYPER;
+  	u32 GPIO_OSPEEDER;
+  	u32 GPIO_PUPDR;
+  	u32 GPIO_IDR;
+  	u32 GPIO_ODR;
+  	u32 GPIO_BSRR;
+  	u32 GPIO_LCKR;
+  	u32 GPIO_AFRL;
+  	u32 GPIO_AFRH;
+  }GPIOx_Type;
+
+
+
+
+/********************************** Macros Function Declarations *********************/
+
+
+/********************************** Data Type Declarations ****************************/
+
+
+
+/********************************** Software Interfaces Declarations *******************/
+
+
+
+#endif /* SCB_SCB_PRIVATE_H_ */

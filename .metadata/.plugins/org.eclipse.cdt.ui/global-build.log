@@ -1,14 +1,21 @@
-13:50:44 **** Incremental Build of configuration Debug for project STM32F429 ****
+20:34:41 **** Incremental Build of configuration Debug for project STM32F429 ****
 make -j20 all 
+arm-none-eabi-gcc "../APP/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I"/home/muhammad/Desktop/embedded/NTI TASK/Repo/STM32F429ZIT6-Drivers/STM32F429/ECUL" -I"/home/muhammad/Desktop/embedded/NTI TASK/Repo/STM32F429ZIT6-Drivers/STM32F429/APP" -I"/home/muhammad/Desktop/embedded/NTI TASK/Repo/STM32F429ZIT6-Drivers/STM32F429/SERVICES" -I"/home/muhammad/Desktop/embedded/NTI TASK/Repo/STM32F429ZIT6-Drivers/STM32F429/MCAL" -I"/home/muhammad/Desktop/embedded/NTI TASK/Repo/STM32F429ZIT6-Drivers/STM32F429/MCAL/GPIO" -I"/home/muhammad/Desktop/embedded/NTI TASK/Repo/STM32F429ZIT6-Drivers/STM32F429/ECUL/LCD" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"APP/main.d" -MT"APP/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "APP/main.o"
+arm-none-eabi-gcc -o "STM32F429.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/muhammad/Desktop/embedded/NTI TASK/Repo/STM32F429ZIT6-Drivers/STM32F429/STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F429.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F429.elf
+ 
 arm-none-eabi-size   STM32F429.elf 
+arm-none-eabi-objdump -h -S  STM32F429.elf  > "STM32F429.list"
    text	   data	    bss	    dec	    hex	filename
-   9580	    480	   1616	  11676	   2d9c	STM32F429.elf
+   9016	    496	   1680	  11192	   2bb8	STM32F429.elf
 Finished building: default.size.stdout
  
-13:50:46 **** Incremental Build of configuration Debug for project STM32F429 ****
+Finished building: STM32F429.list
+ 
+20:34:47 **** Incremental Build of configuration Debug for project STM32F429 ****
 make -j20 all 
 arm-none-eabi-size   STM32F429.elf 
    text	   data	    bss	    dec	    hex	filename
-   9580	    480	   1616	  11676	   2d9c	STM32F429.elf
+   9016	    496	   1680	  11192	   2bb8	STM32F429.elf
 Finished building: default.size.stdout
  

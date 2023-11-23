@@ -139,9 +139,27 @@ Usart_StatusErrorType Usart_enuTransmitCharBlocking(const Usart_ConfigType* Addr
 Usart_StatusErrorType Usart_enuTransmitStringBlocking(const Usart_ConfigType* Address_Usart, u8* Address_Data);
 
 Usart_StatusErrorType Usart_enuReceiveCharBlocking(const Usart_ConfigType* Address_Usart, u16* Address_Data);
-Usart_StatusErrorType Usart_enuReceiveSringBlocking(const Usart_ConfigType* Address_Usart, u8* Address_Data);
+Usart_StatusErrorType Usart_enuReceiveStringBlocking(const Usart_ConfigType* Address_Usart, u8* Address_Data);
 
 Usart_StatusErrorType Usart_enuSetBreakFrame(const Usart_ConfigType* Address_Usart);
+
+
+/////////////////////////////// Interrupt Part ////////////////////////////////////////////
+
+/*
+ * Look At Page 1006
+ */
+Usart_StatusErrorType Usart_enuEnableRxInterrupt(const Usart_ConfigType* Address_Usart);
+Usart_StatusErrorType Usart_enuDisableRxInterrupt(const Usart_ConfigType* Address_Usart);
+Usart_StatusErrorType Usart_enuSetCallbackRxFunction(const Usart_ConfigType* Address_Usart,void (*callback)(u16 Copy_u16Result));
+
+
+Usart_StatusErrorType Usart_enuEnableTxCompleteInterrupt(const Usart_ConfigType* Address_Usart);
+Usart_StatusErrorType Usart_enuDisableTxCompleteInterrupt(const Usart_ConfigType* Address_Usart);
+Usart_StatusErrorType Usart_enuSetCallbackTxCompleteFunction(const Usart_ConfigType* Address_Usart,void (*callback)(void));
+
+
+
 
 /*
  * Interrupt Part

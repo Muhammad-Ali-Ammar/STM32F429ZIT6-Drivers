@@ -22,6 +22,7 @@ static Usart_StatusErrorType Usart_enuEnableRccClock(const Usart_ConfigType* Add
 
 /********************************** Macros Declarations *******************************/
 
+#define NUMBER_OF_USART					EIGHT_VALUE
 
 
 /********************************** Macros Function Declarations *********************/
@@ -68,6 +69,25 @@ static Usart_StatusErrorType Usart_enuEnableRccClock(const Usart_ConfigType* Add
 
 #define Usart_IsTransmitDataRegisterEmpty(_CHANNEL_)				 (READ_BIT( (uartArr[(_CHANNEL_)]->USART_SR),SEVEN_VALUE) == ONE_VALUE )
 #define Usart_IsReceiveDataRegisterEmpty(_CHANNEL_)				    (READ_BIT( (uartArr[(_CHANNEL_)]->USART_SR),FIVE_VALUE) == ZERO_VALUE )
+
+/// Interrupt PArt
+
+#define Usart_GetTxCompleteFlag(_CHANNEL_)								 (READ_BIT( (uartArr[(_CHANNEL_)]->USART_SR),SIX_VALUE) )
+#define Usart_ClearTxCompleteFlag(_CHANNEL_)							 (CLEAR_BIT( (uartArr[(_CHANNEL_)]->USART_SR),SIX_VALUE) )
+
+#define Usart_GetRxCompleteFlag(_CHANNEL_)								 (READ_BIT( (uartArr[(_CHANNEL_)]->USART_SR),FIVE_VALUE) )
+#define Usart_ClearRxCompleteFlag(_CHANNEL_)							 (CLEAR_BIT( (uartArr[(_CHANNEL_)]->USART_SR),FIVE_VALUE) )
+
+#define Usart_EnableTxCompleteInterrupt(_CHANNEL_)						(SET_BIT( (uartArr[(_CHANNEL_)]->USART_CR1),SIX_VALUE) )
+#define Usart_DisableTxCompleteInterrupt(_CHANNEL_)						(CLEAR_BIT( (uartArr[(_CHANNEL_)]->USART_CR1),SIX_VALUE) )
+#define Usart_IsTxCompleteInterruptEnabled(_CHANNEL_)					(READ_BIT( (uartArr[(_CHANNEL_)]->USART_CR1),SIX_VALUE) )
+
+
+#define Usart_EnableRxCompleteInterrupt(_CHANNEL_)						(SET_BIT( (uartArr[(_CHANNEL_)]->USART_CR1),FIVE_VALUE) )
+#define Usart_DisableRxCompleteInterrupt(_CHANNEL_)						(CLEAR_BIT( (uartArr[(_CHANNEL_)]->USART_CR1),FIVE_VALUE) )
+#define Usart_IsRxCompleteInterruptEnabled(_CHANNEL_)					(READ_BIT( (uartArr[(_CHANNEL_)]->USART_CR1),FIVE_VALUE) )
+
+
 
 
 /********************************** Data Type Declarations ****************************/
