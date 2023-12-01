@@ -12,10 +12,13 @@
 
 
 
-/********************************** Includes *********************************************/
+/********************************** *********************************************/
 
 
 /********************************** Data Type Declarations ****************************/
+static void (*Can_RxInterruptHandler[TWO_VALUE])(Can_MessageType* Address_Message,u8 _ArrMessageData[EIGHT_VALUE],u8 Address_FilterIndex);
+
+
 
 typedef volatile struct{
 	u32 CAN_TIR;
@@ -237,6 +240,11 @@ typedef volatile struct{
 
 #define Can_SetBankRegister(_REG_INDEX_,_FILTER_INDEX_, _VALUE_)			(CAN_1->CAN_FilterBankReg[_FILTER_INDEX_].CAN_FR[_REG_INDEX_] ) = (_VALUE_)
 #define Can_GetFilterIndexFifox(_FIFO_MAILBOX_ID_)			    	( ((CAN_1->CAN_RxFifoMailBoxRegs[_FIFO_MAILBOX_ID_].CAN_RDTR ) >> EIGHT_VALUE ) &0xFF)
+
+
+/* Interrupt Part */
+#define Can_EnableRxInterruptFifoMailBox_x(_FIFO_ID_)			(SET_BIT( ((CAN_1->CAN_IER )),( (!_FIFO_ID_)+(_FIFO_ID_*FOUR_VALUE)  )  ) )
+#define Can_DisableRxInterruptFifoMailBox_x(_FIFO_ID_)			(CLEAR_BIT( ((CAN_1->CAN_IER )),( (!_FIFO_ID_)+(_FIFO_ID_*FOUR_VALUE)  )  ) )
 
 
 #define	Filter_concat(...)		Filter_concatHelper(__VA_ARGS__)

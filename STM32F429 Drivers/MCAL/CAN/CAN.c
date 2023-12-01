@@ -683,6 +683,40 @@ Can_StatusErrorType Can_enuReceiveMessageFifox_MustReceiveWithTimeOut(Can_RxFifo
 
 
 
+Can_StatusErrorType Can_enuEnableRxInterruptFifox(Can_RxFifoMailBoxIndexType Copy_enuFifoIndex){
+	Can_StatusErrorType Loc_enuCanStatusError= CAN_STATUS_OK;;
+
+	/* Enable Interrupt */
+	Can_EnableRxInterruptFifoMailBox_x(Copy_enuFifoIndex);
+
+	return Loc_enuCanStatusError;
+}
+
+Can_StatusErrorType Can_enuDisableRxInterruptFifox(Can_RxFifoMailBoxIndexType Copy_enuFifoIndex){
+	Can_StatusErrorType Loc_enuCanStatusError= CAN_STATUS_OK;;
+
+	/* Enable Interrupt */
+	Can_DisableRxInterruptFifoMailBox_x(Copy_enuFifoIndex);
+
+	return Loc_enuCanStatusError;
+}
+
+Can_StatusErrorType Can_enuSetCallbackRxFunctionFifox(Can_RxFifoMailBoxIndexType Copy_enuFifoIndex,void (*callback)(Can_MessageType* Address_Message,u8 _ArrMessageData[EIGHT_VALUE],u8 Address_FilterIndex)){
+
+		Can_StatusErrorType Loc_enuCanStatusError= CAN_STATUS_OK;;
+
+		if( NULL == callback ){
+			Loc_enuCanStatusError = CAN_STATUS_NULL_POINTER_ADDRESS;
+			}
+			else{
+				Can_RxInterruptHandler[Copy_enuFifoIndex] =callback;
+			}
+		return Loc_enuCanStatusError;
+
+}
+
+
+
 /**************************** Private Software Interface Implementation **************/
 
 static Can_StatusErrorType enuFiltersInit(void){
@@ -715,4 +749,42 @@ static Can_StatusErrorType enuFiltersInit(void){
 
 
 	return Loc_enuCanStatusError;
+}
+
+
+
+void CAN1_RX0_IRQHandler(void){
+	Can_MessageType Loc_ReceivedMessage;
+	u8 Loc_ReceivedDataArr[EIGHT_VALUE];
+	u8 Loc_u8FilterIndex;
+
+	/* Get DLC of Message */
+	Loc_ReceivedMessage.can_DLC_FROM_0_TO_8 = Can_GetDLCinRxFifoMailBox_x(CAN_RX_FIFO_MAIL_BOX_INDEX_0);
+
+
+	/* Get EXID of Message */
+	Loc_ReceivedMessage.can_extended_id_remaining_18_bit = Can_GetExtendedIDinRxFifoMailBox_x(CAN_RX_FIFO_MAIL_BOX_INDEX_0);
+
+
+	/* Get IDE of Message */
+	Loc_ReceivedMessage.can_select_ide_mode = Can_GetIDEinRxFifoMailBox_x(CAN_RX_FIFO_MAIL_BOX_INDEX_0);
+
+	/* Get RTR of Message */
+	Loc_ReceivedMessage.can_select_rtr_mode = Can_GetRTRinRxFifoMailBox_x(CAN_RX_FIFO_MAIL_BOX_INDEX_0);
+
+	/* Get Standard ID of Message */
+	Loc_ReceivedMessage.can_standard_id_11_bit = Can_GetStandardIDinRxFifoMailBox_x(CAN_RX_FIFO_MAIL_BOX_INDEX_0);
+
+
+	/* Get The Data */
+	Can_GetDataMessaginFifoMailBox_x(CAN_RX_FIFO_MAIL_BOX_INDEX_0,Loc_ReceivedDataArr);
+
+	/* Get Filter Index*/
+	Loc_u8FilterIndex = Can_GetFilterIndexFifox(CAN_RX_FIFO_MAIL_BOX_INDEX_0);
+
+	Can_RxInterruptHandler[CAN_RX_FIFO_MAIL_BOX_INDEX_0](&Loc_ReceivedMessage,Loc_ReceivedDataArr,Loc_u8FilterIndex);
+
+	/* Relase/Clear The flag The Message */
+	Can_RelaseFIFOxMailBox(CAN_RX_FIFO_MAIL_BOX_INDEX_0);
+
 }

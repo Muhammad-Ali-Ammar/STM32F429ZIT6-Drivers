@@ -1,15 +1,2 @@
-../APP/main.c:54:5:main	8	static
-../APP/main.c:110:6:App_IdleState	16	static
-../APP/main.c:129:6:App_WelcomeMesasage	8	static
-../APP/main.c:150:6:App_WaitCommandState	8	static
-../APP/main.c:202:6:App_FlashLockState	8	static
-../APP/main.c:207:6:App_FlashUnlockState	8	static
-../APP/main.c:214:6:App_WriteState	24	static
-../APP/main.c:258:6:App_ReadState	128	static
-../APP/main.c:308:6:App_SectorEraseState	16	static
-../APP/main.c:342:6:App_WriteProtectionState	16	static
-../APP/main.c:381:6:App_RemoveWriteProtectionState	16	static
-../APP/main.c:410:6:App_OptionByteLockState	8	static
-../APP/main.c:416:6:App_OptionByteUnlockState	8	static
-../APP/main.c:423:6:App_CheckErrors	24	static
-../APP/main.c:457:6:Usart_Isr	16	static
+../APP/main.c:489:6:Can_Isr	24	static
+../APP/main.c:496:5:main	8	static

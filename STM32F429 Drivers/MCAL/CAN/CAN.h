@@ -221,6 +221,12 @@ Can_StatusErrorType Can_enuReceiveMessageFifox_MustReceive(Can_RxFifoMailBoxInde
 Can_StatusErrorType Can_enuReceiveMessageFifox_MustReceiveWithTimeOut(Can_RxFifoMailBoxIndexType Copy_enuFifoIndex,
 							Can_MessageType* Address_Message,u8 _ArrMessageData[EIGHT_VALUE],u8* Address_FilterIndex);
 
+// Interrupt Part
+
+Can_StatusErrorType Can_enuEnableRxInterruptFifox(Can_RxFifoMailBoxIndexType Copy_enuFifoIndex);
+Can_StatusErrorType Can_enuDisableRxInterruptFifox(Can_RxFifoMailBoxIndexType Copy_enuFifoIndex);
+Can_StatusErrorType Can_enuSetCallbackRxFunctionFifox(Can_RxFifoMailBoxIndexType Copy_enuFifoIndex,void (*callback)(Can_MessageType* Address_Message,u8 _ArrMessageData[EIGHT_VALUE],u8 Address_FilterIndex));
+
 
 
 #endif /* CAN_CAN_H_ */

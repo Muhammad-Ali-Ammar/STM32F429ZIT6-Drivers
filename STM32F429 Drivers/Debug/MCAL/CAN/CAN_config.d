@@ -1,1 +1,14 @@
-MCAL/CAN/CAN_config.o: ../MCAL/CAN/CAN_config.c
+MCAL/CAN/CAN_config.o: ../MCAL/CAN/CAN_config.c \
+ ../MCAL/CAN/../../SERVICES/BIT_UTILS.h \
+ ../MCAL/CAN/../../SERVICES/STD_TYPES.h \
+ ../MCAL/CAN/../../SERVICES/MAGIC_NUMBERS.h \
+ ../MCAL/CAN/../../SERVICES/HELPERS.h ../MCAL/CAN/../../MCAL/RCC/RCC.h \
+ ../MCAL/CAN/CAN.h ../MCAL/CAN/CAN_config.h ../MCAL/CAN/CAN_private.h
+../MCAL/CAN/../../SERVICES/BIT_UTILS.h:
+../MCAL/CAN/../../SERVICES/STD_TYPES.h:
+../MCAL/CAN/../../SERVICES/MAGIC_NUMBERS.h:
+../MCAL/CAN/../../SERVICES/HELPERS.h:
+../MCAL/CAN/../../MCAL/RCC/RCC.h:
+../MCAL/CAN/CAN.h:
+../MCAL/CAN/CAN_config.h:
+../MCAL/CAN/CAN_private.h:

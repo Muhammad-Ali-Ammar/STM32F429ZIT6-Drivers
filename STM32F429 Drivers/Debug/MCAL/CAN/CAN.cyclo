@@ -19,4 +19,8 @@
 ../MCAL/CAN/CAN.c:524:21:Can_enuReceiveMessageFifox_CheckOneTime	4
 ../MCAL/CAN/CAN.c:577:21:Can_enuReceiveMessageFifox_MustReceive	4
 ../MCAL/CAN/CAN.c:627:21:Can_enuReceiveMessageFifox_MustReceiveWithTimeOut	6
-../MCAL/CAN/CAN.c:688:28:enuFiltersInit	1
+../MCAL/CAN/CAN.c:686:21:Can_enuEnableRxInterruptFifox	1
+../MCAL/CAN/CAN.c:695:21:Can_enuDisableRxInterruptFifox	1
+../MCAL/CAN/CAN.c:704:21:Can_enuSetCallbackRxFunctionFifox	2
+../MCAL/CAN/CAN.c:722:28:enuFiltersInit	1
+../MCAL/CAN/CAN.c:756:6:CAN1_RX0_IRQHandler	1

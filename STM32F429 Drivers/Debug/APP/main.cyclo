@@ -1,15 +1,2 @@
-../APP/main.c:54:5:main	1
-../APP/main.c:110:6:App_IdleState	4
-../APP/main.c:129:6:App_WelcomeMesasage	1
-../APP/main.c:150:6:App_WaitCommandState	11
-../APP/main.c:202:6:App_FlashLockState	1
-../APP/main.c:207:6:App_FlashUnlockState	1
-../APP/main.c:214:6:App_WriteState	6
-../APP/main.c:258:6:App_ReadState	4
-../APP/main.c:308:6:App_SectorEraseState	4
-../APP/main.c:342:6:App_WriteProtectionState	4
-../APP/main.c:381:6:App_RemoveWriteProtectionState	3
-../APP/main.c:410:6:App_OptionByteLockState	1
-../APP/main.c:416:6:App_OptionByteUnlockState	1
-../APP/main.c:423:6:App_CheckErrors	5
-../APP/main.c:457:6:Usart_Isr	2
+../APP/main.c:489:6:Can_Isr	1
+../APP/main.c:496:5:main	1
